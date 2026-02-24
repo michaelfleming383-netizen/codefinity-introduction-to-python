@@ -8,10 +8,10 @@ prices = [1.20, 0.50, 2.50, 1.75]
 quantities_sold = [50, 100, 25, 40]
 
 combined_list = list(zip(products, prices, quantities_sold))
-print(combined_list)
+#print(combined_list)
 
 sorted_products = sorted(combined_list)
-print(sorted_products)
+#print(sorted_products)
 
 for item in sorted_products :
 
